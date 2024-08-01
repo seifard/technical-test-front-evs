@@ -1,0 +1,15 @@
+{
+  "name": "technical-test-front-evs",
+  "version": "1.0.0",
+  "description": "#### Objectif Créer une application front-end en Angular, React, React Native ou Ionic qui interagit avec un backend Node.js mock. L'objectif est d'évaluer la compétence du candidat en termes de modularisation des composants, de structuration de l'application, et de déploiement avec Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

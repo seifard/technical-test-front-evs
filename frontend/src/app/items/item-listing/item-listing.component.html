@@ -1,0 +1,9 @@
+<div class="items">
+    <input [(ngModel)]="item" class="inputText">
+    <button (click)="addItem()" [disabled]="item==''">Add Item</button>
+</div>
+<ul *ngIf="itemsList">
+    <li *ngFor="let item of itemsList; let index = index;">
+        {{item.name}}
+    </li>
+</ul>

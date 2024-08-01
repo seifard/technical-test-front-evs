@@ -1,0 +1,20 @@
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        margin: 10px;
+        font-size: 16px;
+        &:odd { color:green }
+        &:even { color:red }
+    }
+}
+.items {
+    .inputText {
+        width: 50%;
+        height: 20px;
+        border-radius: 20px;
+        box-shadow: inset;
+        padding-left: 30px;
+    }
+}
